@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import Ticket from "./Ticket";
 // We need to import hooks functionality from both react-redux and react-redux-firebase.
 import { useSelector } from 'react-redux'
-import { useFirestoreConnect, isLoaded, isEmpty } from 'react-redux-firebase'
+import { useFirestoreConnect, isLoaded } from 'react-redux-firebase'
+//removed isEmpty due to error warning
 //we aren't using isEmpty in this component but we've added it to the import statement just to show that it's available to use where needed
 
 
