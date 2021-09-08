@@ -9,14 +9,14 @@ function App(){
   return ( 
     <Router>
       <Header />
-      <switch>
+      <Switch>
         <Route path="/signin">
           <Signin />
         </Route>
         <Route path="/">
           <TicketControl />       
         </Route>
-      </switch>
+      </Switch>
     </Router>
   );
 }
